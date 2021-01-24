@@ -1,0 +1,30 @@
+{
+  "name": "switcherlabs",
+  "version": "0.1.0",
+  "description": "Node SDK for SwitcherLabs",
+  "keywords": [
+    "switcherlabs",
+    "feature flags"
+  ],
+  "homepage": "https://github.com/switcherlabs/switcherlabs-node",
+  "author": "SwitcherLabs <support@switcherlabs.com> (https://switcherlabs.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/switcherlabs/switcherlabs-node.git"
+  },
+  "bugs:": "https://github.com/switcherlabs/switcherlabs-node/issues",
+  "engines": {
+    "node": "^8.1 || >=10.*"
+  },
+  "main": "lib/switcherlabs.js",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --ext .js ."
+  }
+}
